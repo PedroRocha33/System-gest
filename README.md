@@ -1,2 +1,11 @@
 # System-gest
 🚀 SYSTEM-GEST: Sistema de Gestão de Tarefas
+
+SYSTEM-GEST é uma aplicação web robusta, desenvolvida em PHP e JavaScript, projetada para simplificar a organização e gestão de tarefas em ambientes de trabalho ou projetos pessoais. O sistema oferece recursos de autenticação de usuários e um painel de administração dedicado para controle total do ambiente.✨ Funcionalidades PrincipaisCRUD de Tarefas: Crie, visualize, edite e exclua tarefas, incluindo campos para Preço (preco) e Status (status).Autenticação Segura: Login, Registro e Logout de usuários.Controle de Acesso: Separação clara entre o Usuário Comum (que gerencia apenas suas tarefas) e o Administrador (que possui controle global).Gestão de Usuários (Admin): O Administrador pode criar, editar e excluir qualquer usuário e gerenciar suas permissões.🛠️ Tecnologias UtilizadasCategoriaTecnologiaUsoBackendPHPLógica de servidor, manipulação de banco de dados e endpoints da API.Banco de DadosMySQL (ou similar)Armazenamento persistente de usuários e tarefas.FrontendHTML, CSS, JavaScriptCriação da interface de usuário e lógica de interatividade.📂 Estrutura do ProjetoA arquitetura do projeto é modular, facilitando a manutenção e a expansão:SYSTEM-GEST/
+├── api/          # Endpoints PHP para manipulação de Tarefas e Usuários (API)
+├── assets/       # Arquivos estáticos (CSS, JS) para o frontend
+├── core/         # Configurações essenciais (ex: conexão com o DB)
+└── views/        # Arquivos de visualização (páginas da aplicação)
+    ├── admin/    # Área de painel de controle exclusiva para o Admin
+    └── app/      # Páginas principais da aplicação para usuários logados
+⚙️ Instalação e ConfiguraçãoClone o repositório: git clone https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-githubConfigure seu ambiente de servidor web (Apache/Nginx) e PHP.Crie o banco de dados e importe o schema das tabelas users e tasks.Configure as credenciais de conexão com o banco de dados no arquivo core/connection.php.Acesse a aplicação no seu navegador.🤝 ContribuiçõesContribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um Pull Request.
